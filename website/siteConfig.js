@@ -84,7 +84,8 @@ const users = [
 
 const siteConfig = {
   title: 'Relay',
-  tagline: 'A JavaScript framework for building data-driven React applications',
+  tagline: 'A Composable GraphQL API Client.',
+  subtagline: 'Like React, but for your data.',
   url: 'https://facebook.github.io',
   baseUrl: '/relay/',
   projectName: 'relay',

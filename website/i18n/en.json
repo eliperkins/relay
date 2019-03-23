@@ -3,7 +3,7 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "A JavaScript framework for building data-driven React applications",
+    "tagline": "A Composable GraphQL API Client.",
     "docs": {
       "community-learning-resources": {
         "title": "Community Learning Resources"

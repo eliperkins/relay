@@ -44,6 +44,7 @@ class HomeSplash extends React.Component {
               <h2 className="projectTitle">
                 {siteConfig.title}
                 <small>{siteConfig.tagline}</small>
+                <small>{siteConfig.subtagline}</small>
               </h2>
               <div className="section promoSection">
                 <div className="promoRow">
