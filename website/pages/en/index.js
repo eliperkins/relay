@@ -163,6 +163,12 @@ class Index extends React.Component {
                     'Relay requires a bit more up-front setup and tools, in favour of supporting an architecture of isolated components which can scale with your team and app complexity.',
                   title: 'Make Complexity Explicit',
                 },
+              ]}
+              layout="twoColumn"
+            />
+            <GridBlock
+              align="left"
+              contents={[
                 {
                   content:
                     'Relay strives to offer a set of opinionated primitive React components, on which you can build any type of data-driven application.\n\nLearn these principals once, then your projects spend more time working on business logic instead of pipelining data.',
