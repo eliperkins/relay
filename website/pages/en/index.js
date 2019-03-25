@@ -46,19 +46,6 @@ class HomeSplash extends React.Component {
                 <small>{siteConfig.tagline}</small>
                 <small>{siteConfig.subtagline}</small>
               </h2>
-              <div className="section promoSection">
-                <div className="promoRow">
-                  <div className="pluginRowBlock">
-                    <Button
-                      href={
-                        siteConfig.baseUrl +
-                        'docs/en/introduction-to-relay.html'
-                      }>
-                      Get Started
-                    </Button>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
