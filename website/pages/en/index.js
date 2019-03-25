@@ -178,6 +178,26 @@ class Index extends React.Component {
             />
           </Container>
 
+          <Container padding={['bottom']}>
+            <h2>Built for Production</h2>
+            <GridBlock
+              align="left"
+              contents={[
+                {
+                  content:
+                    'Relay is critical infrastructure in Facebook, there are tens of thousands of components using it. Relay was built in tandem with GraphQL and has full-time staff working to improve it.',
+                  title: 'Used at Facebook Scale',
+                },
+                {
+                  content:
+                    'The Relay team have a lot to do. So, we rely on the community to help each other and if you encounter problems, you may need to get your hands dirty and help make improvements.',
+                  title: 'Open Source',
+                },
+              ]}
+              layout="twoColumn"
+            />
+          </Container>
+
           <Container padding={['bottom', 'top']} background="light">
             <GridBlock
               contents={[
