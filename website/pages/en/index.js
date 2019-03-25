@@ -86,30 +86,25 @@ class Index extends React.Component {
       <div>
         <HomeSplash language={language} />
         <div className="mainContainer">
-          <Container padding={['bottom', 'top']}>
+          <Container padding={['bottom']}>
+            <h2>GraphQL Best Practices Baked In</h2>
             <GridBlock
-              align="center"
+              align="left"
               contents={[
                 {
                   content:
-                    'Declare the data your components need with GraphQL, Relay determines how and when to fetch your data.',
-                  image: '',
-                  imageAlign: 'top',
-                  title: 'Declarative',
+                    'A GraphQL fragment is a way to name a sub-query inside a part of your GraphQL query.\n\nRelay uses Fragments to give the component just the data it uses.\n\nSee the Fragment docs.',
+                  title: 'Fragments',
                 },
                 {
                   content:
-                    'GraphQL is written next to the views that rely on them. Relay aggregates queries into efficient network requests.',
-                  image: '',
-                  imageAlign: 'top',
-                  title: 'Colocation',
+                    'A GraphQL connection is an opinionated list that can easily be paginated in any direciton, and contains structure for rich relationship data.\n\nRelay provides tools to make pagination best practices declarative.\n\nSee the Connections docs.',
+                  title: 'Connections',
                 },
                 {
                   content:
-                    'Write GraphQL mutations and Relay offers automatic data consistency, optimistic updates, and error handling.',
-                  image: '',
-                  imageAlign: 'top',
-                  title: 'Mutations',
+                    'A Node ID is a globally unique ID across your entire schema for every type, build using a GraphQL interface.\n\nRelay uses this pattern to provide reliable caching and make incremental updates to data simple.\n\nSee the Node ID docs.',
+                  title: 'Node IDs',
                 },
               ]}
               layout="threeColumn"
