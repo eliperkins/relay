@@ -10,6 +10,22 @@
   text-align: left;
 }
 
+.homeWrapper .logo {
+  position: absolute;
+  overflow: visible;
+  top: 50%;
+  left: 50%;
+  margin-left: -450px;
+  margin-top: -450px;
+  width: 900px;
+  transform: rotate(-26deg);
+  opacity: 0.1;
+}
+
+.homeWrapper .logo img {
+  width: 900px;
+}
+
 .homeContainer .homeWrapper {
   padding-left: 24px;
   padding-right: 24px;
