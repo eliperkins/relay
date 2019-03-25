@@ -98,6 +98,86 @@ class Index extends React.Component {
             />
           </Container>
 
+          <Container padding={['bottom']}>
+            <h2>Declarative Mutations</h2>
+            <GridBlock
+              align="left"
+              contents={[
+                {
+                  content:
+                    'The Relay mutation API lets you declaratively define the data which would mutate from a server change by user, and Relay will propagate the changes.',
+                  title: 'Describe data changing',
+                },
+                {
+                  content:
+                    'Due to the Node ID pattern, Relay can know all of the changed components for any mutation, automating prop updates.',
+                  title: 'Non-localized changes',
+                },
+                {
+                  content:
+                    'The mutation API makes it trivial to do optimistic rendering, error handling and reverting when things don’t go as planned.',
+                  title: 'Optimized for UI',
+                },
+              ]}
+              layout="threeColumn"
+            />
+          </Container>
+
+          <Container padding={['bottom']}>
+            <h2>Type Safety</h2>
+            <GridBlock
+              align="left"
+              contents={[
+                {
+                  content:
+                    'While you work on a Relay project, the Relay compiler will guide you to ensure project-wide consistency.',
+                  title: 'Peace of Mind',
+                },
+                {
+                  content:
+                    'Relay pre-computes runtime lookups on the developer’s computer, not your users.',
+                  title: 'Runtime Optimized',
+                },
+                {
+                  content:
+                    'Each React component using Relay gets unique Flow or TypeScript interfaces generated.',
+                  title: 'Isolated Interfaces',
+                },
+              ]}
+              layout="threeColumn"
+            />
+          </Container>
+
+          <Container padding={['bottom']}>
+            <h2>Can Relay Work For Me?</h2>
+            <GridBlock
+              align="left"
+              contents={[
+                {
+                  content:
+                    'If you already can render React components, you’re most of the way there. Relay requires a Babel plugin, and to also run the Relay Compiler.\n\nYou can use Relay out of the box with Create React App and Next.js.',
+                  title: 'Adopt Incrementally',
+                },
+                {
+                  content:
+                    'Relay requires a bit more up-front setup and tools, in favour of supporting an architecture of isolated components which can scale with your team and app complexity.',
+                  title: 'Make Complexity Explicit',
+                },
+                {
+                  content:
+                    'Relay strives to offer a set of opinionated primitive React components, on which you can build any type of data-driven application.\n\nLearn these principals once, then your projects spend more time working on business logic instead of pipelining data.',
+                  title: 'User Interface Platform',
+                },
+                {
+                  content:
+                    'If you’re the sort of team that believes in using Flow or TypeScript to move error detection to dev-time, then Relay is likely a good fit for you.\n\nIt’s probable you’d otherwise re-create a lot of Relay’s caching, and UI best practices independently.',
+                  title: 'Not Just for Big Apps',
+                },
+              ]}
+              layout="twoColumn"
+            />
+          </Container>
+
           <Container padding={['bottom', 'top']} background="light">
             <GridBlock
               contents={[
